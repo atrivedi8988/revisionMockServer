@@ -17,7 +17,7 @@ app.use("/product", productRouter )
 mongoose.set('strictQuery', true);
 mongoose
   .connect(
-    "mongodb+srv://utkarsh:1234@cluster0.p0u8dny.mongodb.net/EMI"
+    "mongodb+srv://aman:amantrivedi@cluster0.ddklfbc.mongodb.net/EMI"
   )
   .then(() => {
     app.listen(8080, (req, res) => {
